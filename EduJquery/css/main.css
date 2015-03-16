@@ -1,0 +1,101 @@
+.main {
+    width: 430px;
+    height: 430px;
+    background-color: silver;
+    border-radius: 3px;
+}
+
+.main input[type="text"] {
+    color: silver;
+    width: 40px;
+    height: 70px;
+    text-align: center;
+    font-size: 38px;
+    font-family: sans-serif;
+}
+
+.topLeft {
+    float: left;
+    padding: 20px;
+}
+
+.topRight {
+    float: right;
+    padding: 20px;
+}
+
+.bottomLeft {
+    float: left;
+    padding: 20px;
+}
+
+.bottomRight {
+    float: right;
+    padding: 20px;
+}
+
+.btn {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+}
+
+.btn button {
+    padding: 5px 15px;
+}
+
+.top {
+    clear: both;
+    position: absolute;
+    top: 20px;
+    width: 100%;
+}
+
+.bottom {
+    clear: both;
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+}
+
+.top span {
+    color: black;
+    font-weight: bold;
+    font-size: 38px;
+    margin-right: 5px;
+}
+
+.bottom span {
+    color: black;
+    font-weight: bold;
+    font-size: 38px;
+    margin-right: 5px;
+}
+
+.central {
+    display: block;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 3px;
+    position: absolute;
+    top: 190px;
+    left: 190px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.four {
+    position: absolute;
+    top: -7px;
+    left: 11px;
+}
+
+.err {
+    color: maroon;
+    display: inline-block;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}

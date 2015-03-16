@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Four Dimensional Equation</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <!--jquery ui-->
+    <link rel="stylesheet" href="bower_components/jqueryui/themes/smoothness/theme.css"/>
+    <link rel="stylesheet" href="bower_components/jqueryui/themes/smoothness/jquery-ui.css"/>    
+</head>
+<body>
+<div class="err">Score of wrong answers : <span id="err">0</span><br/><span id="answers"></span></div>
+<div id="main" class="main">
+    <!-- top container -->
+    <div class="top">
+        <!--slider-->
+        <div class="topLeft">
+            <span>2</span>
+            <span>+</span>
+            <input type="text" id="topLeft"/>
+        </div>
+        <div class="topRight">
+            <span>1</span>
+            <span>+</span>
+            <input type="text" id="topRight"/>
+        </div>
+    </div>
+    <!-- separator -->
+    <div style="clear: both;"></div>
+    <!-- bottom container -->
+    <div class="bottom">
+        <div class="bottomLeft">
+            <span>4</span>
+            <span>+</span>
+            <input type="text" id="bottomLeft"/>
+        </div>
+        <div class="bottomRight">
+            <span>3</span>
+            <span>+</span>
+            <input type="text" id="bottomRight" value="/"/>
+        </div>
+    </div>
+    <!-- central cell -->
+    <div class="central"><span class="four">4</span></div>
+    <!-- central cell -->
+    <!-- button -->
+    <div class="btn">
+        <button>OK</button>
+    </div>
+    <!-- button -->
+</div>
+<!-- main container end -->
+<!--jquery  core-->
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+<!-- jquery ui -->
+<script type="text/javascript" src="bower_components/jqueryui/jquery-ui.js"></script>
+<script type="text/javascript" src="bower_components/jqueryui/ui/slider.js"></script>
+<!--app script-->
+<script type="text/javascript" src="js/app/app.js"></script>
+<script type="text/javascript" src="js/app/util.js"></script>
+</body>
+</html>
